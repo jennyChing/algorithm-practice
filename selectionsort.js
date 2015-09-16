@@ -1,3 +1,8 @@
+var swap = function(array, firstIndex, secondIndex) {
+    var temp = array[firstIndex];
+	array[firstIndex] = array[secondIndex];
+	array[secondIndex] = temp;
+};
 var indexOfMinimum = function(array, startIndex) {
     // Set initial values for minValue and minIndex,
     // based on the leftmost entry in the subarray:  
