@@ -20,6 +20,16 @@ var indexOfMinimum = function(array, startIndex) {
     return minIndex;
 }; 
 
+
+var selectionSort = function(array) {
+    var length = array.length;
+    for(var i = 0; i < length; i++){
+        var min = indexOfMinimum(array,i);
+        swap(array, i, min);
+    }
+
+};
+
 var array = [18, 6, 66, 44, 9, 22, 14];   
 var index = indexOfMinimum(array, 2);
 
