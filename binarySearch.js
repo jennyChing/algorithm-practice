@@ -6,9 +6,9 @@ var doSearch = function(array, targetValue) {
     var guess;
     while (max>=min){
         guess = floor((min+max)/2);
-        if (targetValue === guess){
+        if (targetValue === array[guess]){
         return guess;
-        }else if (targetValue > guess){
+        }else if (targetValue > array[guess]){
             min = guess+1;
         }else{
             max = guess-1;
