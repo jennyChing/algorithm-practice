@@ -34,7 +34,16 @@ var doBFS = function(graph, source) {
     queue.enqueue(source);
 
     // Traverse the graph
-    
+	while (!queue.isEmpty()) {
+	    var u  = queue.dequeue();
+	    for (v; distance === u+1; ){
+	        var neighbors = graph[][];
+	        if(bfsInfo[]. === ) {
+            
+            
+	        }
+	    }
+	}
     // As long as the queue is not empty:
     //  Repeatedly dequeue a vertex u from the queue.
     //  
